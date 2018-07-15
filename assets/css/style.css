@@ -5,7 +5,19 @@
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.carousel-indicators > li { visibility: hidden; }
+
+body{
+	background-image: url(../images/background.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+}
+html, body{
+	max-width: 100%;
+	overflow-x: hidden;
+}
 
 .img-container{
   position:relative;
@@ -34,31 +46,6 @@
   color:#fff;
 }
 
-.MainContainer{
-	perspective: 1.75px;
-	transform-style: preserve-3d;
-	height:100vh;
-	overflow-x:hidden;
-	overflow-y:scroll;
-
-}
-
-.ContentContainer{
-	position:relative;
-	display:block;
-	z-index: 1;
-}
-
-.ParallaxContainer{
-	display: flex;
-	flex: 1 0 auto;
-	position: relative;
-	z-index: -1;
-	height: 100vh;
-	justify-content: center;
-	align-items:center;
-	transform: translateZ(-1px) scale(2);
-}
 
 .nav{
 	z-index: 2 !important;
@@ -74,14 +61,78 @@
 }
 
 .bg-light{
+	background-color: rgba(211,211,211, 0.9) !important;
+}
+
+.blockquote{
 	background-color: rgba(211,211,211, 0.4) !important;
 }
 
+.jumbotron{
+	background-color: rgba(211,211,211, 0.4) !important;	
+}
 
+#myleftnav > a {
+    position: relative;
+    left: -50%;
+    transition: 0.3s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
 
+}
 
+#myleftnav>a:hover {
+    left: 0;
+}
 
+   
+    /*background-color: #4CAF50;*/
 
+#myrightnav > a {
+    position: relative;
+    right: -50%;
+    transition: 0.3s;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+
+}
+
+#myrightnav>a:hover {
+    right: 0;
+}
+
+.left-text{
+	text-align:right;
+}
+
+.imgleft{
+	text-align:left !important;
+}
+
+#footer{
+	background-color: rgba(10,24,221, 0.9);
+}
+
+#mainicon{
+  margin:0 auto;
+  text-align: center;
+  display: block;
+  width: auto;
+}
+
+#navicon{
+	position: relative;
+}
 
 
 
@@ -92,9 +143,11 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
-.ParallaxContainer{
-	height: 50vh;
+#myleftnav{
+	display: block;
 }
+
+
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
