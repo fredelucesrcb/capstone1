@@ -12,6 +12,10 @@
 
 	<!-- external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
 </head>
 <body>
 <nav class="navbar d-block navbar-light navbar-expand-lg bg-light justify-content-between">
@@ -56,10 +60,10 @@
 
 
 </div> <!-- end first row -->
-<div class="row no-gutters">
+<div class="row no-gutters wow slideInLeft"> <!-- start second row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
-    <div class="card flex-row flex-wrap">
+    <div class="card flex-row flex-wrap wow slideInLeft">
         <div class="card-header border-0">
             <img src="http://placehold.jp/1200x500.png" alt="" class="img-fluid">
         </div>
@@ -68,7 +72,7 @@
             <h4 class="card-title">Where the Brand came From</h4>
             <p class="card-text text-justify">The Skyline name originated from Prince automobile company, which developed and sold the Skyline line of sedans before merging with Nissan-Datsun. The earliest predecessor of the GT-R, the S54 2000 GT-B, came second in its first race in 1964 to the purpose-built Porsche 904 GTS. However, the earlier Prince Skyline Sport coupe/convertible foreshadowed the GT-R as the first sports-oriented model in the Skyline range, hence the name.
 
-<p class="card-text text-justify">The next development of the GT-R, the four-door PGC10 2000 GT-R, scored 33 victories in the one and a half years it raced, and by the time it attempted its 50th consecutive win, its run was ended by a Mazda Savanna RX-3. The car took 1000 victories by the time it was discontinued in 1972.</p>
+            <p class="card-text text-justify">The next development of the GT-R, the four-door PGC10 2000 GT-R, scored 33 victories in the one and a half years it raced, and by the time it attempted its 50th consecutive win, its run was ended by a Mazda Savanna RX-3. The car took 1000 victories by the time it was discontinued in 1972.</p>
         </div>
         </div>
         <div class="w-100"></div>
@@ -82,18 +86,21 @@
     </div>
 </div>
 </div> <!-- end column -->
-</div> <!-- end row -->
-<div class="row no-gutters"> <!-- start second row -->
-
+</div> <!-- end second row -->
+<div class="row no-gutters wow"> <!-- start second row -->
+    
 	<div class="col-12 col-md-12 col-lg-12" >
+    
 		<img src="assets/images/downarrow.png" class="mx-auto d-block py-3">
-	</div>
+	       </div>
+    </div>
 </div>	<!-- end second row -->
 
-<div class="row no-gutters"> <!-- start third row -->
+<div class="row no-gutters wow slideInLeft"> <!-- start third row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
     <div class="card flex-row flex-wrap">
+       <div class="animated bounce"
         <div class="card-header border-0">
             <img src="http://placehold.jp/1200x500.png" alt="" class="img-fluid">
         </div>
@@ -104,7 +111,7 @@
 
 
 
-<p>A total of 1,945 PGC and KPGC10 Skyline GT-Rs were produced.</p>
+            <p>A total of 1,945 PGC and KPGC10 Skyline GT-Rs were produced.</p>
         </div>
         </div>
         <div class="w-100"></div>
@@ -116,6 +123,7 @@
             
         </div>
     </div>
+
 </div>
 </div> <!-- end column -->
 	
@@ -127,7 +135,7 @@
 	</div>
 </div>	<!-- end second row -->
 
-<div class="row no-gutters"> <!-- start fourth row -->
+<div class="row no-gutters wow slideInLeft"> <!-- start fourth row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
     <div class="card flex-row flex-wrap">
@@ -136,7 +144,7 @@
         </div>
         <div class="card-block px-2">
             <div class="side-caption">
-            <h4 class="card-title">Second Generation</h4>
+            <h4 class="card-title wow bounce">Second Generation</h4>
             <p class="card-text">The Second Generation Skyline was released in 1973 after its introduction at the 1972 Tokyo Motor Show. Powered by a <strong>1989 cc I6 S20 engine</strong>, the second generation GT-R delivered power to the rear wheels through a 5-speed manual gearbox. This car also had both front and rear disk brakes. The suspension was a semi-trailing ring arm setup and minor aerodynamic parts were added. <p>
 
 
@@ -162,7 +170,7 @@
 	</div>
 </div>	<!-- end second row -->
 
-<div class="row no-gutters"> <!-- start third row -->
+<div class="row no-gutters wow slideInLeft"> <!-- start third row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
     <div class="card flex-row flex-wrap">
@@ -199,7 +207,7 @@
 	</div>
 </div>	<!-- end second row -->
 
-<div class="row no-gutters"> <!-- start third row -->
+<div class="row no-gutters wow slideInLeft"> <!-- start third row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
     <div class="card flex-row flex-wrap">
@@ -235,7 +243,7 @@ A proud moment in history for the R33 was when it took the production car lap re
 	</div>
 </div>	<!-- end second row -->
 
-<div class="row no-gutters"> <!-- start third row -->
+<div class="row no-gutters wow slideInLeft"> <!-- start third row -->
 	<div  class="col-12 col-md-12 col-lg-12">
 <div class="container">
     <div class="card flex-row flex-wrap">
@@ -345,6 +353,13 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
 
 
 <!-- scripts -->
+
+<!-- wow scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+          new WOW().init();
+    </script>
+
 	<!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<!-- popper -->
@@ -358,5 +373,7 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
 <script src="assets/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </body>
 </html>
