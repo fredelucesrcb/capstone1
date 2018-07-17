@@ -40,6 +40,50 @@
 	margin-left: 0;
 }
 
+
+
+#footer{
+	background-color: rgba(38,82,191, 0.7);
+}
+
+.card{
+	background-color: #484C57;
+}
+
+.navbar{
+	background-color: rgba(132,132,132,0.7);
+}
+h1, h4, p{
+	color: #4083AE;
+}
+
+hr{
+	background-color: #F2F2F2;
+}
+
+body{
+	background-color: #0B0C11;
+}
+
+h1{
+	font-family: 'Bungee'
+}
+
+h4{
+	font-family: 'Faster One'
+
+}
+
+p{
+	font-family: 'Abel'
+}
+
+a{
+	font-family: 'Rajdhani'
+}
+
+
+
 /*breakpoints*/
 
 /*// Extra small devices (portrait phones, less than 576px)*/

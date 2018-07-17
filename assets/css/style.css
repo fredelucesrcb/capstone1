@@ -60,17 +60,22 @@ html, body{
     /*margin:0 auto;*/
 }
 
-.bg-light{
-	background-color: rgba(211,211,211, 0.9) !important;
-}
+
 
 .blockquote{
-	background-color: rgba(211,211,211, 0.4) !important;
+	background-color: #484C57;
 }
 
 .jumbotron{
-	background-color: rgba(211,211,211, 0.4) !important;	
+	background-color: rgba(211,211,211, 0.6) !important;	
+  font-family: Abel;
 }
+
+
+.img-thumbnail {
+  background-color: rgba(211,211,211, 0.6);
+}
+
 
 #myleftnav > a {
     position: relative;
@@ -137,6 +142,43 @@ html, body{
 .rounded-circle{
   border-radius: 50% !important;
 }
+
+#footer{
+  background-color: rgba(38,82,191, 0.7);
+}
+
+.card{
+  background-color: #484C57;
+}
+
+.navbar{
+  background-color: rgba(132,132,132,0.7);
+}
+h1, h2, h4, p{
+  color: #4083AE;
+}
+
+h2{
+  font-family: 'Bungee'
+}
+
+hr{
+  background-color: #F2F2F2;
+}
+
+body{
+  background-color: #0B0C11;
+}
+
+
+
+/*to copy*/
+
+a{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
 
 
 
