@@ -89,10 +89,17 @@ a{
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
 
-.parallax1,
-.parralax2,
+.parallax1
+{
+	min-height: 27vh;
+}
+
+.parallax2,
 .parallax3{
-	min-height: 300px;
+	min-height: 35vh;
+}
+
+
 }
 
 

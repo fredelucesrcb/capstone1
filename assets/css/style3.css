@@ -126,7 +126,7 @@ a{
 @media (max-width: 575.98px) { 
 
 .cont1{
-	max-height: 12em;
+	max-height: 14em;
 
 }
 .bottom{
@@ -142,7 +142,7 @@ a{
 @media (min-width: 576px) and (max-width: 767.98px) {
 
 .cont1{
-	max-height: 9.5em;
+	max-height: 30em;
 
 }
 .bottom{
@@ -171,7 +171,7 @@ a{
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .cont1{
-	max-height: 19em;
+	max-height: 20em;
 
 }
 .bottom{
@@ -181,9 +181,36 @@ a{
   opacity:1;
 }
 
+
+
 }
 
 
-
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) and (max-width:1439.98px) { 
+
+	.bottom{
+	position: relative;
+	bottom: 86.5%; 
+	/*float: right;*/
+
+}
+
+.cont1{
+	max-height: 25.5em;
+	}
+}
+
+@media (min-width: 1440px){
+
+.bottom{
+	position: relative;
+	bottom: 400px; 
+	/*float: right;*/
+
+}
+
+.cont1{
+	max-height: 30em;
+	}
+}
