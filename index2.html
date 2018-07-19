@@ -28,9 +28,13 @@
   <!-- Faster One -->
   <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 
+  <!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+
 </head>
 <body>
-<nav class="navbar d-block navbar-dark navbar-expand-lg justify-content-between">
+<nav class="navbar d-block navbar-dark navbar-expand-lg justify-content-between" id="top">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
             <span class="navbar-toggler-icon"></span>
@@ -133,7 +137,7 @@
         <div class="card-footer w-100 text-muted">
             <button type="button" class="btn btn-primary d-inline" data-toggle="collapse" data-target="#brand"> Fun Fact</button>
             <div id="brand" class="collapse">
-            	<p>fun fact test</p>
+            	<p>The engine of the GTR is put together by hand. There are only 4 engineers in the world who are allowed to do this. They are Takumi, a master craftsman with a lot of experience. 4 of them have more than 100 years of experience, combined.</p>
             </div>
             
         </div>
@@ -245,9 +249,9 @@ A proud moment in history for the R33 was when it took the production car lap re
         </div>
         <div class="w-100"></div>
         <div class="card-footer w-100 text-muted">
-            <button type="button" class="btn btn-primary d-inline" data-toggle="collapse" data-target="#demo"> Fun Fact</button>
-            <div id="demo" class="collapse">
-            	<p>fun fact test</p>
+            <button type="button" class="btn btn-primary d-inline" data-toggle="collapse" data-target="#funfact4"> Fun Fact</button>
+            <div id="funfact4" class="collapse">
+            	<p>During the 90’s, Japanese car manufactures were under agreement to only produce cars with a maximum power output of 276 bhp. However the Rb26 found in the R32, R33 and R34 was quite a bit more powerful than that. When the R32 left the factory and hit the dynos, many people found that the engine was actually producing 330+ bhp.</p>
             </div>
             
         </div>
@@ -287,9 +291,9 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
         </div>
         <div class="w-100"></div>
         <div class="card-footer w-100 text-muted">
-            <button type="button" class="btn btn-primary d-inline" data-toggle="collapse" data-target="#demo"> Fun Fact</button>
-            <div id="demo" class="collapse">
-            	<p>fun fact test</p>
+            <button type="button" class="btn btn-primary d-inline" data-toggle="collapse" data-target="#funfact5"> Fun Fact</button>
+            <div id="funfact5" class="collapse">
+            	<p> Continuous fettling created many limited-run R34s – there were 11 variations in total.</p>
             </div>
             
         </div>
@@ -299,6 +303,10 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
 	
 </div> <!--end third row -->
 
+<div class="backtotop text-center">
+<a href="#top" class="d-block"><i class="fas fa-chevron-circle-up"></i>
+<small class="text-muted d-block">back to top</small></a>
+</div>
 
 
 
@@ -313,6 +321,7 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
 
 
 
+<!-- Footer -->
 <footer class="page-footer font-small  pt-4" id="footer">
 
     <!-- Footer Elements -->
@@ -321,8 +330,45 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
       <!--Grid row-->
       <div class="row">
 
+
+        <div class="col-md-4 mb-4">
+          <button type="button" class="btn  btn-lg btn-warning" data-toggle="modal" data-target="#disclaimer">
+          Disclaimer
+        </button>
+
+<!-- Modal -->
+          <div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="disclaimertitle">Disclaimer</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Gojira R34 creates no claim or credit for images featured on our site unless otherwise noted. All visual content is copyrighted to it's respectful owners and we make every effort to link back to original content whenever possible. If you own rights to any of the images, and do not wish them to appear here, please contact us and they will be promptly remove.</p>
+
+ 
+
+                  <p>Gojira R34 is in no way responsible for, or has control of, the content of any external website links. Information on this site may contain errors or inaccuracies; the site's proprietors do not make warranty as to the correctness or reliability of the site's content.</p>
+
+ 
+
+                  <p>We follow typical web protocol through a general creative commons license, also generally known a "guide for internet sharing" where we believe in providing, and receiving, proper attribution to the original author, artist or photographer.</p>
+
+                  <p>From time to time we feature celebrities, professional sports players, authors, artists, politicians and other notable people in our site. The persons named or featured on Gojira R34 have not endorsed, recommended, or approved the products or services offered or mentioned on our site.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--Grid column-->
-        <div class="col-md-6 mb-4">
+        <div class="col-md-4 mb-4">
 
           <!-- Form -->
           <form class="form-inline">
@@ -335,10 +381,10 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
         <!--Grid column-->
 
         <!--Grid column-->
-        <div class="col-md-6 mb-4">
+        <div class="col-md-4 mb-4">
 
           <form class="input-group">
-            <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2">
+            <input type="text" class="form-control form-control-sm" placeholder="Sign up for our weekly newsletter" aria-label="Your email" aria-describedby="basic-addon2">
             <div class="input-group-append">
               <button class="btn btn-sm btn-outline-white" type="button">Sign up</button>
             </div>
@@ -350,20 +396,33 @@ The Nissan Skyline R34 GTR has cut weight in many areas. From the light alloy wh
       </div>
       <!--Grid row-->
 
+      <div class="row contact">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <h5>Our Partners</h5>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+          <h5>Contact Us</h5>
+              <div class="socialicons text-center">
+               <a href="mailto:fredeluces.rcb@gmail.com"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                
+              </div>
+        </div>
+      </div>
+
     </div>
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MDBootstrap.com</a>
+    <div class="footer-copyright text-center py-3">Roy Caesar Fredeluces 2018 &copy;: Tuitt Coding Bootcamp</a>
     </div>
     <!-- Copyright -->
 
   </footer>
   <!-- Footer -->
-
-
-
 
 
 

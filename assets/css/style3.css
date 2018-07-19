@@ -74,6 +74,10 @@ a{
 	font-family: 'Rajdhani'
 }
 
+p{
+	font-family: 'Abel';
+}
+
 .delay1{
 	animation-delay: .2s
 }
@@ -90,6 +94,22 @@ a{
 	animation-delay: .5s
 }
 
+
+ .fab{
+  font-size:  4em;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+}
+
+.contact{
+  color: rgb(247, 247, 247);
+}
 
 
 

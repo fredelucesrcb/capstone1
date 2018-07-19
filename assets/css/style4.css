@@ -111,3 +111,27 @@ h1{
 .delay15{
     animation-delay: 1.5s
 }
+
+.modal-footer{
+    justify-content: flex-start;
+}
+
+img{
+    cursor: pointer;
+}
+
+.fab{
+  font-size:  4em;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+}
+
+.contact{
+  color: rgb(247, 247, 247);
+}

@@ -158,6 +158,11 @@ h1, h2, h4,{
   color: #4083AE;
 }
 
+h5, h6{
+  color: rgb(247, 247, 247) ;
+  font-weight: 700;
+}
+
 p{
   color: white;
   font-family: 'Abel';
@@ -181,6 +186,26 @@ body{
 
 a{
   font-family: 'Rajdhani', sans-serif;
+}
+
+.modal-body > p{
+  color: black;
+}
+
+.fab{
+  font-size:  4em;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+}
+
+.contact{
+  color: rgb(247, 247, 247);
 }
 
 
