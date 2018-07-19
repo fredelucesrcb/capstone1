@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer{
+	background-color: rgba(38,82,191, 0.7);
+}
+
+.card{
+	background-color: #484C57;
+}
+
+.navbar{
+	background-color: rgba(132,132,132,0.7);
+}
+h1, h4, p, h2{
+	color: #4083AE;
+}
+
+hr{
+	background-color: #F2F2F2;
+}
+
+body{
+	background-color: #0B0C11;
+}
+
+h1, {
+	font-family: 'Bungee'
+}
+
+h4, h2{
+	font-family: 'Faster One'
+
+}
+
+p{
+	font-family: 'Abel'
+}
+
+a{
+	font-family: 'Rajdhani'
+}
+
+ .fab{
+  font-size:  2em;
+  margin-left: 13px;
+  margin-right: 13px;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(247, 247, 247);
+}
+
+.contact{
+  color: rgb(247, 247, 247);
+}
+
+textarea{
+	height: 100%;
+}
+
+small{
+	font-family: 'Rajdhani';
+	color:rgb(247, 247, 247);
+}
+
+#cont > p{
+	line-height: 0.5
+}
+
+#cont2 >p{
+	line-height: 0.5
+}
+
+
+
+
+
+
+
+
+/*breakpoints*/
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+.cont, #cont{
+	text-align: center !important;
+}
+
+}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+.cont, #cont{
+	text-align: center !important;
+}
+
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.cont, #cont{
+	text-align: center !important;
+}
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.jumbotron{
+	min-height: 250px;
+}
+
+
+}
+
+
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+.jumbotron{
+	min-height: 250px;
+}
+}
