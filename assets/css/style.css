@@ -61,6 +61,52 @@ html, body{
 }
 
 
+/*Gojira of the day*/
+          .daycontainer{
+            /*position:relative;*/
+
+          }
+
+          .image{
+            opacity:1;
+            /*display:block;*/
+            transition: .3s ease;
+            backface-visibility: hidden;
+            /*width: 100%*/
+            height: auto;
+            /*z-index: 1;*/
+          }
+
+          .text{
+            transition: .3s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            /*z-index: -1;*/
+          }
+
+          .daycontainer:hover  .image{
+            opacity: 0.7;
+          }
+
+          .daycontainer:hover  .text{ 
+            opacity: 1;
+           }
+
+
+           .text-content{
+            background-color: rgb(247, 247, 247);
+            padding: 2px 2px 2px 2px;
+            border-radius: 5px;
+           }
+          
+
+
+
+
 
 .blockquote{
 	background-color: #484C57;
@@ -154,7 +200,7 @@ html, body{
 .navbar{
   background-color: rgba(132,132,132,0.7);
 }
-h1, h2, h4,{
+h1, h2, h4, h3{
   color: #4083AE;
 }
 
@@ -178,6 +224,10 @@ hr{
 
 body{
   background-color: #0B0C11;
+}
+
+h3{
+  font-family: 'Faster One'
 }
 
 

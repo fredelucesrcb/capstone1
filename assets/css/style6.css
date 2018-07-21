@@ -28,7 +28,7 @@ body{
 	background-color: #0B0C11;
 }
 
-h1, {
+h1 {
 	font-family: 'Bungee'
 }
 
@@ -76,6 +76,16 @@ small{
 
 #cont2 >p{
 	line-height: 0.5
+}
+
+/*fontawesome icons*/
+
+.fas{
+	font-size: 2.5em;
+}
+
+.jumbotron{
+	min-height: 10em;
 }
 
 
@@ -126,6 +136,6 @@ small{
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
 .jumbotron{
-	min-height: 250px;
+	min-height: 12em;
 }
 }

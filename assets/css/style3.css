@@ -201,25 +201,38 @@ a{
   opacity:1;
 }
 
-
-
 }
 
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) and (max-width:1439.98px) { 
+@media (min-width: 1200px) and (max-width:1300.98px) { 
 
 	.bottom{
 	position: relative;
-	bottom: 87.5%; 
+	bottom: 91.5%; 
 	/*float: right;*/
 
 }
 
 .cont1{
-	max-height: 25.5em;
+	max-height: 24em;
 	}
 }
+
+
+@media (min-width: 1301px) and (max-width: 1399.99px){
+	.bottom{
+		position: relative;
+		bottom: 92.75%;
+	}
+
+	.cont1{
+		max-height: 25.5em;
+	}
+
+}
+
+
 
 @media (min-width: 1440px){
 
@@ -231,6 +244,6 @@ a{
 }
 
 .cont1{
-	max-height: 30em;
+	max-height: 27em;
 	}
 }
