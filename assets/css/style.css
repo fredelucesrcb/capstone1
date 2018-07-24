@@ -275,7 +275,14 @@ a{
 	display: block;
 }
 
-
+body{
+  background-image: url(../images/smallbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+}
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
